@@ -681,14 +681,23 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Users/Gabriele/Documents/GitHub/VR-Game/Vr Game/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
- <Reference Include="Unity.XR.CoreUtils.Editor">
- <HintPath>C:/Users/Gabriele/Documents/GitHub/VR-Game/Vr Game/Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll</HintPath>
+ <Reference Include="Unity.XR.InteractionSubsystems">
+ <HintPath>C:/Users/Gabriele/Documents/GitHub/VR-Game/Vr Game/Library/ScriptAssemblies/Unity.XR.InteractionSubsystems.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ShaderGraph.Editor">
  <HintPath>C:/Users/Gabriele/Documents/GitHub/VR-Game/Vr Game/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.XR.CoreUtils.Editor">
+ <HintPath>C:/Users/Gabriele/Documents/GitHub/VR-Game/Vr Game/Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.WindowsMixedReality.Editor">
+ <HintPath>C:/Users/Gabriele/Documents/GitHub/VR-Game/Vr Game/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
  <HintPath>C:/Users/Gabriele/Documents/GitHub/VR-Game/Vr Game/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARSubsystems.Editor">
+ <HintPath>C:/Users/Gabriele/Documents/GitHub/VR-Game/Vr Game/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Management">
  <HintPath>C:/Users/Gabriele/Documents/GitHub/VR-Game/Vr Game/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
@@ -696,11 +705,17 @@
  <Reference Include="Unity.Mathematics.Editor">
  <HintPath>C:/Users/Gabriele/Documents/GitHub/VR-Game/Vr Game/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.XR.ARSubsystems">
+ <HintPath>C:/Users/Gabriele/Documents/GitHub/VR-Game/Vr Game/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.XR.Oculus.Editor">
  <HintPath>C:/Users/Gabriele/Documents/GitHub/VR-Game/Vr Game/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Runtime">
  <HintPath>C:/Users/Gabriele/Documents/GitHub/VR-Game/Vr Game/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.WindowsMixedReality">
+ <HintPath>C:/Users/Gabriele/Documents/GitHub/VR-Game/Vr Game/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
  <HintPath>C:/Users/Gabriele/Documents/GitHub/VR-Game/Vr Game/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
