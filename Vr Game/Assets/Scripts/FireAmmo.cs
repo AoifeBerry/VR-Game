@@ -7,12 +7,12 @@ public class FireAmmo : MonoBehaviour
 
     public GameObject FireAmmo1;
     public GameObject WaterAmmo;
-    public GameObject BasicAmmo;
+    public GameObject BasicAmmo; 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     void OnTriggerEnter(Collider other)
