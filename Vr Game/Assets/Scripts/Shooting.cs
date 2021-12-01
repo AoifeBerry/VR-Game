@@ -53,7 +53,9 @@ public class Shooting : MonoBehaviour
         {
             
             var bullet = Instantiate(theBullet, barrelEnd.position, barrelEnd.rotation);
+            bullet.transform.Rotate(0f, 0f, 180f);
             bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * bulletSpeed;
+            
             Destroy(bullet, despawnTime);
             shootAble = false;
             StartCoroutine(ShootingYield());

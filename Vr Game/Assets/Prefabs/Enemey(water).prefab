@@ -4876,6 +4876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 273220769}
   Player: {fileID: 0}
+  Speed: 1
 --- !u!135 &5051774773084661557
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4901,6 +4902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa8ee497332984849b866abcd35a69d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 100
 --- !u!1 &3078346684587618493
 GameObject:
   m_ObjectHideFlags: 0
