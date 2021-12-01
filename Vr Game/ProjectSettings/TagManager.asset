@@ -11,6 +11,9 @@ TagManager:
   - WaterWand
   - FireProjectile
   - WaterProjectile
+  - EnemyWater
+  - EnemyFire
+  - EnemyAir
   layers:
   - Default
   - TransparentFX
