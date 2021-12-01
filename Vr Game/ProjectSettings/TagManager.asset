@@ -7,6 +7,10 @@ TagManager:
   - Wand
   - FireAmmo
   - WaterAmmo
+  - FireWand
+  - WaterWand
+  - FireProjectile
+  - WaterProjectile
   layers:
   - Default
   - TransparentFX

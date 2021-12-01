@@ -5,7 +5,7 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
 
-    public GameObject theBullet;
+    private GameObject theBullet;
     public Transform barrelEnd;
 
     public int bulletSpeed;
@@ -15,19 +15,28 @@ public class Shooting : MonoBehaviour
     public float waitBeforeNextShot;
     public Animator anim;
 
-    public bool fire = false;
 
+    [SerializeField] public GameObject fire;
+    [SerializeField] public GameObject water;
+    [SerializeField] public GameObject noType;
 
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
-
+        theBullet = noType;
 
     }
     //press space to fire the main cannon
     private void Update()
     {
-        
+        if (gameObject.tag == "WaterWand")
+        {
+            theBullet = water;
+        }
+        else if (gameObject.tag == "FireWand")
+        {
+            theBullet = fire;
+        }
     }
 
     IEnumerator ShootingYield()
@@ -42,6 +51,7 @@ public class Shooting : MonoBehaviour
     {
         if (shootAble == true)
         {
+            
             var bullet = Instantiate(theBullet, barrelEnd.position, barrelEnd.rotation);
             bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * bulletSpeed;
             Destroy(bullet, despawnTime);

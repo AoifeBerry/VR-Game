@@ -15,19 +15,29 @@ public class ShootLeft : MonoBehaviour
     public float waitBeforeNextShot = 0.25f;
     public Animator anim;
 
-    public bool fire = false;
+    
 
+    [SerializeField] public GameObject fire;
+    [SerializeField] public GameObject water;
+    [SerializeField] public GameObject noType;
 
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
-
+        theBullet = noType;
 
     }
     //press space to fire the main cannon
     private void Update()
     {
-
+        if (gameObject.tag == "WaterWand")
+        {
+            theBullet = water;
+        }
+        else if (gameObject.tag == "FireWand")
+        {
+            theBullet = fire;
+        }
     }
 
     IEnumerator ShootingYield()

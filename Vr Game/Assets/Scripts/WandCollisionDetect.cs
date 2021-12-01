@@ -8,14 +8,15 @@ public class WandCollisionDetect : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("FireAmmo"))
         {
-            gameObject.tag = "FireAmmo";
-            gameObject.GetComponent<Renderer>().material.color = new Color(255, 0, 0);
+            gameObject.tag = "FireWand";
+            //gameObject.GetComponent<Renderer>().material.color = new Color(255, 0, 0);
         }
 
         if (collision.gameObject.CompareTag("WaterAmmo"))
         {
-            gameObject.tag = "WaterAmmo";
-            gameObject.GetComponent<Renderer>().material.color = new Color(0, 0, 255);
+            gameObject.tag = "WaterWand";
+            //gameObject.GetComponent<Renderer>().material.color = new Color(0, 0, 255);
         }
     }
 }
+
