@@ -12,7 +12,11 @@ GameObject:
   m_Layer: 0
   m_Name: FireProjectile
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_TagString: FireProjectile
+=======
+  m_TagString: Untagged
+>>>>>>> Stashed changes
 =======
   m_TagString: Untagged
 >>>>>>> Stashed changes
