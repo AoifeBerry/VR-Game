@@ -49,9 +49,11 @@
   <ItemGroup>
      <Compile Include="Assets\TestWand.cs" />
      <Compile Include="Assets\ElementChange.cs" />
+     <Compile Include="Assets\Scripts\TowerHealth.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\Scripts\ChangeSpell.cs" />
      <Compile Include="Assets\Scripts\WandCollisionDetect.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\Scripts\ShootLeft.cs" />
      <Compile Include="Assets\Scripts\FireAmmo.cs" />
