@@ -34,6 +34,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6028542, guid: a57bf2a0bb6600542aaa91e3be5c3038, type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 922106449}
+    - target: {fileID: 6028542, guid: a57bf2a0bb6600542aaa91e3be5c3038, type: 3}
       propertyPath: Player
       value: 
       objectReference: {fileID: 8818427344369276939, guid: 0ff383d47da4c5f4e9d206eb4a574edb, type: 3}
@@ -111,15 +115,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3944938626835115373, guid: a57bf2a0bb6600542aaa91e3be5c3038, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.8803606
+      value: 4.411868
       objectReference: {fileID: 0}
     - target: {fileID: 3944938626835115373, guid: a57bf2a0bb6600542aaa91e3be5c3038, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.961
+      value: 4.07
       objectReference: {fileID: 0}
     - target: {fileID: 3944938626835115373, guid: a57bf2a0bb6600542aaa91e3be5c3038, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 23.186172
+      value: 24.063957
       objectReference: {fileID: 0}
     - target: {fileID: 3944938626835115373, guid: a57bf2a0bb6600542aaa91e3be5c3038, type: 3}
       propertyPath: m_LocalRotation.w
