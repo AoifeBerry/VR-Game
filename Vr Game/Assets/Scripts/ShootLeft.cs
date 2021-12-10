@@ -15,10 +15,12 @@ public class ShootLeft : MonoBehaviour
     public float waitBeforeNextShot = 0.25f;
     public Animator anim;
 
-    
+
 
     [SerializeField] public GameObject fire;
     [SerializeField] public GameObject water;
+    [SerializeField] public GameObject earth;
+    [SerializeField] public GameObject wind;
     [SerializeField] public GameObject noType;
 
     void Start()
@@ -37,6 +39,14 @@ public class ShootLeft : MonoBehaviour
         else if (gameObject.tag == "FireWand")
         {
             theBullet = fire;
+        }
+        else if (gameObject.tag == "EarthWand")
+        {
+            theBullet = earth;
+        }
+        else if (gameObject.tag == "WindWand")
+        {
+            theBullet = wind;
         }
     }
 

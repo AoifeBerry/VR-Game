@@ -17,6 +17,16 @@ public class WandCollisionDetect : MonoBehaviour
             gameObject.tag = "WaterWand";
             //gameObject.GetComponent<Renderer>().material.color = new Color(0, 0, 255);
         }
+        if (collision.gameObject.CompareTag("EarthAmmo"))
+        {
+            gameObject.tag = "EarthWand";
+            //gameObject.GetComponent<Renderer>().material.color = new Color(0, 0, 255);
+        }
+        if (collision.gameObject.CompareTag("WindAmmo"))
+        {
+            gameObject.tag = "WindWand";
+            //gameObject.GetComponent<Renderer>().material.color = new Color(0, 0, 255);
+        }
     }
 }
 

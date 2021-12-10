@@ -18,6 +18,8 @@ public class Shooting : MonoBehaviour
 
     [SerializeField] public GameObject fire;
     [SerializeField] public GameObject water;
+    [SerializeField] public GameObject earth;
+    [SerializeField] public GameObject wind;
     [SerializeField] public GameObject noType;
 
     void Start()
@@ -36,6 +38,14 @@ public class Shooting : MonoBehaviour
         else if (gameObject.tag == "FireWand")
         {
             theBullet = fire;
+        }
+        else if (gameObject.tag == "EarthWand")
+        {
+            theBullet = earth;
+        }
+        else if (gameObject.tag == "WindWand")
+        {
+            theBullet = wind;
         }
     }
 
