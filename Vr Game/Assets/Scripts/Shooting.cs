@@ -15,7 +15,10 @@ public class Shooting : MonoBehaviour
     public float waitBeforeNextShot;
     public Animator anim;
 
-
+    [SerializeField] public GameObject firewand;
+        [SerializeField] public GameObject waterwand;
+        [SerializeField] public GameObject earthwand;
+        [SerializeField] public GameObject windwand;
     [SerializeField] public GameObject fire;
     [SerializeField] public GameObject water;
     [SerializeField] public GameObject earth;
@@ -34,18 +37,34 @@ public class Shooting : MonoBehaviour
         if (gameObject.tag == "WaterWand")
         {
             theBullet = water;
+            firewand.SetActive(false);
+            waterwand.SetActive(true);
+            windwand.SetActive(false);
+            earthwand.SetActive(false);
         }
         else if (gameObject.tag == "FireWand")
         {
             theBullet = fire;
+            firewand.SetActive(true);
+            waterwand.SetActive(false);
+            windwand.SetActive(false);
+            earthwand.SetActive(false);
         }
         else if (gameObject.tag == "EarthWand")
         {
             theBullet = earth;
+            firewand.SetActive(false);
+            waterwand.SetActive(false);
+            windwand.SetActive(false);
+            earthwand.SetActive(true);
         }
         else if (gameObject.tag == "WindWand")
         {
             theBullet = wind;
+            firewand.SetActive(false);
+            waterwand.SetActive(false);
+            windwand.SetActive(true);
+            earthwand.SetActive(false);
         }
     }
 

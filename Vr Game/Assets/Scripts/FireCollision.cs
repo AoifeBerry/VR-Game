@@ -17,12 +17,6 @@ public class FireCollision : MonoBehaviour
     }
     public void OnCollisionEnter(Collider collision)
     {
-        foreach (ContactPoint contact in collision.contacts)
-        {
-            if (collision.gameObject.CompareTag("FireAmmo"))
-            {
-                Debug.DrawRay(contact.point, contact.normal, Color.white);
-            }
-        }
+       
     }
 }
