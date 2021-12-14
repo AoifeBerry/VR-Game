@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 321707748770782623}
   - component: {fileID: -1402984429430543247}
   - component: {fileID: 7891413555208916061}
+  - component: {fileID: 5079885131519916015}
   m_Layer: 0
   m_Name: FireProjectile
   m_TagString: FireProjectile
@@ -62,6 +63,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.13, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5079885131519916015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321707748770782620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a925eac64dc110a4eb091d868c9f12ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 321707748770782623}
+  rb: {fileID: -1402984429430543247}
+  fire: {fileID: 2788263017742075380, guid: 4d98bcd7b79f2a347a9623fe3e896c41, type: 3}
 --- !u!1 &321707749321236587
 GameObject:
   m_ObjectHideFlags: 0

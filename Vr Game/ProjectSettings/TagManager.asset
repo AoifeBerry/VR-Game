@@ -21,6 +21,7 @@ TagManager:
   - WindAmmo
   - WindWand
   - WindProjectile
+  - Ground
   layers:
   - Default
   - TransparentFX
