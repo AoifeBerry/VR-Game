@@ -6090,7 +6090,7 @@ MeshCollider:
   m_GameObject: {fileID: 3845089793267060441}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -6158,7 +6158,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 2
     m_ManualUV: 0
     elementGroup: 0
     m_TextureGroup: -1
@@ -15399,8 +15399,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b7b91dca588840d4b9c6f7f66b851663, type: 2}
   - {fileID: 2100000, guid: 3d9fd4d74e2542f478a5da09b8db0a15, type: 2}
+  - {fileID: 2100000, guid: 3d9fd4d74e2542f478a5da09b8db0a15, type: 2}
+  - {fileID: 2100000, guid: b7b91dca588840d4b9c6f7f66b851663, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15439,7 +15440,7 @@ MeshCollider:
   m_GameObject: {fileID: 9043187334500222574}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
