@@ -49,10 +49,12 @@
   <ItemGroup>
      <Compile Include="Assets\FireProjectileScript.cs" />
      <Compile Include="Assets\TestWand.cs" />
+     <Compile Include="Assets\Scripts\FireDie.cs" />
      <Compile Include="Assets\ElementChange.cs" />
      <Compile Include="Assets\Scripts\IsOnFire.cs" />
      <Compile Include="Assets\Scripts\TowerHealth.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+     <Compile Include="Assets\Scripts\HitGround.cs" />
      <Compile Include="Assets\Scripts\FireCollision.cs" />
      <Compile Include="Assets\Scripts\WandCollisionDetect.cs" />
      <Compile Include="Assets\Scripts\HealthBar.cs" />
