@@ -129,7 +129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6664947853784345855, guid: 918a7c3c8d9e44d4388c45f34425f795, type: 3}
       propertyPath: m_Name
-      value: Enemy Model water
+      value: Enemy Model water Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7210102394865160755, guid: 918a7c3c8d9e44d4388c45f34425f795, type: 3}
       propertyPath: m_Mesh
