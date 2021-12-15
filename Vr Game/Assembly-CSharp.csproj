@@ -60,6 +60,8 @@
      <Compile Include="Assets\Scripts\FireCollision.cs" />
      <Compile Include="Assets\Scripts\WandCollisionDetect.cs" />
      <Compile Include="Assets\Scripts\IfFireHits.cs" />
+     <Compile Include="Assets\Scripts\HittingAir.cs" />
+     <Compile Include="Assets\Scripts\EarthHitting.cs" />
      <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\Scripts\ShootLeft.cs" />

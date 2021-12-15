@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 167
+  controlID: 175
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 110
+  controlID: 104
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 111
+  controlID: 105
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,8 +245,8 @@ MonoBehaviour:
     y: 0
     width: 840
     height: 560
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -488,21 +488,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 48b4fefffe17ffff0418ffff1c18ffff085affff4e89ffff5089ffff7c8bffffdedaffff76dfffff2ae4ffff5ce9ffffe4e9ffff
+      m_ExpandedIDs: 76d5fffff0e7ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: enemy parts
-        m_OriginalName: enemy parts
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -124696
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -548,9 +548,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.435105, y: 4.7155695, z: 11.124428}
+    m_Target: {x: 4.5387225, y: 5.835748, z: 18.238062}
     speed: 2
-    m_Value: {x: 6.435105, y: 4.7155695, z: 11.124428}
+    m_Value: {x: 4.5387225, y: 5.835748, z: 18.238062}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -597,9 +597,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2396932, y: 0.08491927, z: -0.021050956, w: 0.96689916}
+    m_Target: {x: 0.29402497, y: -0.019495016, z: 0.0059989793, w: 0.95557714}
     speed: 2
-    m_Value: {x: 0.23969305, y: 0.084919214, z: -0.021050943, w: 0.96689856}
+    m_Value: {x: 0.2940258, y: -0.01949507, z: 0.005998996, w: 0.9555798}
   m_Size:
     m_Target: 6.607346
     speed: 2
@@ -666,13 +666,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\berry\OneDrive\Documents\GitHub\VR Game\VR-Game\Vr
     Game
@@ -680,9 +680,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 26}
-    m_SelectedIDs: 100a0100
-    m_LastClickedID: 68112
-    m_ExpandedIDs: 000000002e83000030830000328300003483000036830000388300003a8300003c8300003e830000408300004283000044830000468300004883000000ca9a3b
+    m_SelectedIDs: 74830000
+    m_LastClickedID: 33652
+    m_ExpandedIDs: 0000000000830000028300000483000006830000088300000a8300000c8300000e83000010830000128300001483000016830000188300001a8300007483000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -710,7 +710,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002e83000030830000328300003483000036830000388300003a8300003c8300003e8300004083000042830000448300004683000048830000
+    m_ExpandedIDs: 0000000000830000028300000483000006830000088300000a8300000c8300000e83000010830000128300001483000016830000188300001a830000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
