@@ -37,11 +37,11 @@ public class RandomlySpawn : MonoBehaviour
         whichEnemy3 = 0;
         Rand4 = 0;
         whichEnemy4 = 0;
-        InvokeRepeating("randomSpawn1", 1, 1);
-        InvokeRepeating("randomSpawn2", 1, 1);
-        InvokeRepeating("randomSpawn3", 1, 1);
-        InvokeRepeating("randomSpawn4", 1, 1);
-        InvokeRepeating("randomSpawn5", 1, 1);
+        InvokeRepeating("randomSpawn1", 1, 2);
+        InvokeRepeating("randomSpawn2", 1, 2);
+        InvokeRepeating("randomSpawn3", 1, 2);
+        InvokeRepeating("randomSpawn4", 60, 2);
+        InvokeRepeating("randomSpawn5", 60, 2);
     }
     void Update()
     {
