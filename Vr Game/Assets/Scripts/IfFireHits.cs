@@ -7,6 +7,8 @@ public class IfFireHits : MonoBehaviour
 
     public GameObject fireParticle;
     public GameObject Healing;
+    public GameObject EarthParticle;
+    public GameObject AirParticle;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,8 +26,8 @@ public class IfFireHits : MonoBehaviour
         {
         
         Debug.Log("HittingFire");
-            fireParticle.SetActive(true);
-            StartCoroutine(FireAwake());
+            AirParticle.SetActive(true);
+            StartCoroutine(AirAwake());
 
         }
         if (other.tag == "WaterProjectile")
@@ -36,6 +38,23 @@ public class IfFireHits : MonoBehaviour
             StartCoroutine(HealingAwake());
 
         }
+        if (other.tag == "EarthProjectile")
+        {
+
+            // Debug.Log("healing");
+            EarthParticle.SetActive(true);
+            StartCoroutine(EarthAwake());
+
+        }
+        if (other.tag == "AirProjectile")
+        {
+
+            // Debug.Log("healing");
+            AirParticle.SetActive(true);
+            StartCoroutine(AirAwake());
+
+        }
+
     }
     IEnumerator FireAwake()
     {
@@ -46,5 +65,15 @@ public class IfFireHits : MonoBehaviour
     {
         yield return new WaitForSeconds(4);
         Healing.SetActive(false);
+    }
+    IEnumerator AirAwake()
+    {
+        yield return new WaitForSeconds(4);
+        AirParticle.SetActive(false);
+    }
+    IEnumerator EarthAwake()
+    {
+        yield return new WaitForSeconds(4);
+        EarthParticle.SetActive(false);
     }
 }

@@ -29,5 +29,14 @@ public class HitGroundWater : MonoBehaviour
             Destroy(gameObject);
 
         }
+        if (collision.gameObject.CompareTag("River"))
+        {
+            //Debug.Log("Ground");
+            Destroy(gameObject);
+            // rb.constraints = RigidbodyConstraints.FreezeAll;
+            Instantiate(water, bullet.transform.position, bullet.transform.rotation);
+            Destroy(gameObject);
+
+        }
     }
 }

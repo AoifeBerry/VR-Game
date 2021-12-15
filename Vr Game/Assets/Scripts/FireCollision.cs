@@ -15,7 +15,7 @@ public class FireCollision : MonoBehaviour
     {
 
     }
-    public void OnCollisionEnter(Collider collision)
+    public void OnCollisionEnter(Collision collision)
     {
        
     }

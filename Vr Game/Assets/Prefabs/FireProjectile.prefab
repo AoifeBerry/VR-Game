@@ -78,6 +78,7 @@ MonoBehaviour:
   bullet: {fileID: 321707748770782623}
   rb: {fileID: -1402984429430543247}
   fire: {fileID: 2788263017742075380, guid: 4d98bcd7b79f2a347a9623fe3e896c41, type: 3}
+  steam: {fileID: 775295886459944480, guid: 63f97398f1a3af840b52272c1267905f, type: 3}
 --- !u!1 &321707749321236587
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,6 +7,7 @@ public class HitGround : MonoBehaviour
     public Transform bullet;
     public Rigidbody rb;
     public Transform fire;
+    public Transform steam;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,10 +23,19 @@ public class HitGround : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            Debug.Log("Ground");
+           // Debug.Log("Ground");
             Destroy(gameObject);
             // rb.constraints = RigidbodyConstraints.FreezeAll;
             Instantiate(fire, bullet.transform.position, bullet.transform.rotation);
+            Destroy(gameObject);
+
+        }
+        if (collision.gameObject.CompareTag("River"))
+        {
+            //Debug.Log("Ground");
+            Destroy(gameObject);
+            // rb.constraints = RigidbodyConstraints.FreezeAll;
+            Instantiate(steam, bullet.transform.position, bullet.transform.rotation);
             Destroy(gameObject);
 
         }

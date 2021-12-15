@@ -22,6 +22,7 @@ TagManager:
   - WindWand
   - WindProjectile
   - Ground
+  - River
   layers:
   - Default
   - TransparentFX
