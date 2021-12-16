@@ -23,12 +23,12 @@ public class EnemyHealth : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (((other.tag == "WaterProjectile") && (tag == "EnemyFire")) || ((other.tag == "FireProjectile") && (tag == "EnemyWater")))
+        if (((other.tag == "WaterProjectile") && (tag == "EnemyFire")) || ((other.tag == "FireProjectile") && (tag == "EnemyWater")) || ((other.tag == "EarthProjectile") && (tag == "EnemyAir")) || ((other.tag == "WindProjectile") && (tag == "EnemyEarth")))
         {
             health -= 50;
         }
         else
-        if (((other.tag == "WaterProjectile") && (tag == "EnemyWater")) || ((other.tag == "FireProjectile") && (tag == "EnemyFire")))
+        if (((other.tag == "WaterProjectile") && (tag == "EnemyWater")) || ((other.tag == "FireProjectile") && (tag == "EnemyFire")) || ((other.tag == "WindProjectile") && (tag == "EnemyAir")) || ((other.tag == "EarthProjectile") && (tag == "EnemyEarth")))
         {
             health += 25;
         }

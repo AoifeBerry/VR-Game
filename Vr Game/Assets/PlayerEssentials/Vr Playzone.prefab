@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3061389052488452788}
+  - component: {fileID: 279370646742016439}
   - component: {fileID: 3061389052488452787}
   - component: {fileID: 3061389052488452786}
   - component: {fileID: 3061389052488452785}
@@ -43,6 +44,18 @@ Transform:
   m_Father: {fileID: 3061389053665213474}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &279370646742016439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061389052488452789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ccc7d35acb29a42a20f60a18a54e85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3061389052488452787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -875,10 +888,12 @@ MonoBehaviour:
   waterwand: {fileID: 1313558056609436355}
   earthwand: {fileID: 8915098623500892248}
   windwand: {fileID: 7120179245844080839}
+  duckwand: {fileID: 0}
   fire: {fileID: 321707748770782620, guid: 988925ac5a8d0374da09d6da1b12a2a7, type: 3}
   water: {fileID: 566991606210905761, guid: 972acf9869a34764d9f101e42f8b1e81, type: 3}
   earth: {fileID: 2410478066038065321, guid: 4dcc64b4d1528304b936e2486d2fa842, type: 3}
   wind: {fileID: 2044412208617567140, guid: be8930d103225ad4c8df45e390184412, type: 3}
+  ducks: {fileID: 0}
   noType: {fileID: 206659562834059856, guid: bba60118a35e8bb4d9f9cf559dacefd2, type: 3}
 --- !u!135 &3061389052917944492
 SphereCollider:
