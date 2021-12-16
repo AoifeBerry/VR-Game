@@ -23,6 +23,7 @@ TagManager:
   - WindProjectile
   - Ground
   - River
+  - GroundFire
   layers:
   - Default
   - TransparentFX

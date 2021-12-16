@@ -66,6 +66,19 @@ MonoBehaviour:
   Healing: {fileID: 7020354995921027407}
   WaterParticle: {fileID: 1603018810317292589}
   AirParticle: {fileID: 5640786160319864884}
+--- !u!114 &3375755412635783800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326021490973841603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa8ee497332984849b866abcd35a69d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!1001 &107153546575200543
 PrefabInstance:
   m_ObjectHideFlags: 0
