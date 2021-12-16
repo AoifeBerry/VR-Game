@@ -20,10 +20,12 @@ public class ShootLeft : MonoBehaviour
     [SerializeField] public GameObject waterwand;
     [SerializeField] public GameObject earthwand;
     [SerializeField] public GameObject windwand;
+    [SerializeField] public GameObject duckwand;
     [SerializeField] public GameObject fire;
     [SerializeField] public GameObject water;
     [SerializeField] public GameObject earth;
     [SerializeField] public GameObject wind;
+    [SerializeField] public GameObject ducks;
     [SerializeField] public GameObject noType;
 
     void Start()
@@ -42,6 +44,7 @@ public class ShootLeft : MonoBehaviour
             waterwand.SetActive(true);
             windwand.SetActive(false);
             earthwand.SetActive(false);
+            duckwand.SetActive(false);
         }
         else if (gameObject.tag == "FireWand")
         {
@@ -50,6 +53,7 @@ public class ShootLeft : MonoBehaviour
             waterwand.SetActive(false);
             windwand.SetActive(false);
             earthwand.SetActive(false);
+            duckwand.SetActive(false);
         }
         else if (gameObject.tag == "EarthWand")
         {
@@ -58,6 +62,7 @@ public class ShootLeft : MonoBehaviour
             waterwand.SetActive(false);
             windwand.SetActive(false);
             earthwand.SetActive(true);
+            duckwand.SetActive(false);
         }
         else if (gameObject.tag == "WindWand")
         {
@@ -66,6 +71,16 @@ public class ShootLeft : MonoBehaviour
             waterwand.SetActive(false);
             windwand.SetActive(true);
             earthwand.SetActive(false);
+            duckwand.SetActive(false);
+        }
+        else if (gameObject.tag == "DuckWand")
+        {
+            theBullet = wind;
+            firewand.SetActive(false);
+            waterwand.SetActive(false);
+            windwand.SetActive(false);
+            earthwand.SetActive(false);
+            duckwand.SetActive(true);
         }
     }
 

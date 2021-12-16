@@ -24,6 +24,9 @@ TagManager:
   - Ground
   - River
   - GroundFire
+  - GroundMud
+  - GroundRock
+  - DuckAmmo
   layers:
   - Default
   - TransparentFX

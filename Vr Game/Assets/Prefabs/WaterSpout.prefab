@@ -4822,9 +4822,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1260623521644582938}
-  - component: {fileID: 1240482025966769045}
   - component: {fileID: 1181088895}
   - component: {fileID: 1181088893}
+  - component: {fileID: 4206246399799514374}
   m_Layer: 0
   m_Name: WaterSpout
   m_TagString: Untagged
@@ -4847,21 +4847,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1240482025966769045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1260623521644582939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bfaeb9cc2ed5f941bcdb31bc5bab79e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fire: {fileID: 2788263017742075380, guid: 4d98bcd7b79f2a347a9623fe3e896c41, type: 3}
-  water: {fileID: 1260623521644582938}
-  steam: {fileID: 775295886459944480, guid: 63f97398f1a3af840b52272c1267905f, type: 3}
 --- !u!54 &1181088895
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4891,3 +4876,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0598354, y: 2.3363156, z: 1}
   m_Center: {x: 0.029917717, y: 0.6681578, z: 0}
+--- !u!114 &4206246399799514374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260623521644582939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d4e129b96e226249b8ca9bc11e44a13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  water: {fileID: 1260623521644582938}
+  steam: {fileID: 775295886459944480, guid: 63f97398f1a3af840b52272c1267905f, type: 3}
+  rock: {fileID: 8558255262727128491, guid: ace93b31ae396554c9d048f041f52d43, type: 3}
+  mud: {fileID: 8258153869766861812, guid: 3e502392047a2b84f87ef24ca2a4d494, type: 3}

@@ -51,6 +51,7 @@
      <Compile Include="Assets\TestWand.cs" />
      <Compile Include="Assets\Scripts\HitGroundWater.cs" />
      <Compile Include="Assets\Scripts\FireDie.cs" />
+     <Compile Include="Assets\Scripts\FireAndWater.cs" />
      <Compile Include="Assets\ElementChange.cs" />
      <Compile Include="Assets\Scripts\WaterDie.cs" />
      <Compile Include="Assets\Scripts\IsOnFire.cs" />
