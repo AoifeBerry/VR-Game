@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
     public float health = 100;
+    public float Score = 0;
     private string tag;
+    public Text scoreT;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +20,11 @@ public class EnemyHealth : MonoBehaviour
     {
         if (health <= 0)
         {
+            
+            Score++;
+            Debug.Log(Score);
             Destroy(gameObject);
+            scoreT.text = Score.ToString();
         }
     }
 

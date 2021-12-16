@@ -16,6 +16,7 @@ public class TowerHealth : MonoBehaviour
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
     }
+   
 
     void OnTriggerEnter(Collider collision)
     {

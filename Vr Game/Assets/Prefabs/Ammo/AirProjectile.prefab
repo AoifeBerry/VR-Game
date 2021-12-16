@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8211068807181571537}
   - component: {fileID: 6489438430869548643}
   - component: {fileID: 8170453255779564860}
+  - component: {fileID: 5466679753109859583}
   m_Layer: 0
   m_Name: AirProjectile
   m_TagString: FireProjectile
@@ -176,6 +177,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5466679753109859583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731231893792097296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706bfbce87eb8e7409df7dc9615ab8d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FireE: {fileID: 0}
+  WaterE: {fileID: 0}
+  EarthE: {fileID: 0}
+  AirE: {fileID: 0}
+  scoreT: {fileID: 0}
+  Scoree: 0
 --- !u!1 &1731231894315432423
 GameObject:
   m_ObjectHideFlags: 0
