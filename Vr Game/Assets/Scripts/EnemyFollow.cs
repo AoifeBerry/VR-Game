@@ -19,5 +19,16 @@ public class EnemyFollow : MonoBehaviour
     void Update()
     {
         enemy.SetDestination(Player.position);
+        enemy.speed = Speed;
+    }
+    public void SpeedDown()
+    {
+        Speed = 0.5f;
+        StartCoroutine(SpeedUp());
+    }
+    IEnumerator SpeedUp()
+    {
+        yield return new WaitForSeconds(6);
+        Speed = 1.0f;
     }
 }

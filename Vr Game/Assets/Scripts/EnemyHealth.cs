@@ -32,19 +32,23 @@ public class EnemyHealth : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (((other.tag == "WaterProjectile") && (tag == "EnemyFire")) || ((other.tag == "FireProjectile") && (tag == "EnemyWater")) || ((other.tag == "EarthProjectile") && (tag == "EnemyAir")) || ((other.tag == "WindProjectile") && (tag == "EnemyEarth")))
-        {
+        if (other.tag == "WaterProjectile" || other.tag == "EarthProjectile" || other.tag == "FireProjectile" || other.tag == "WindProjectile" ) {
+            if (((other.tag == "WaterProjectile") && (tag == "EnemyFire")) || ((other.tag == "FireProjectile") && (tag == "EnemyWater")) || ((other.tag == "EarthProjectile") && (tag == "EnemyAir")) || ((other.tag == "WindProjectile") && (tag == "EnemyEarth")))
+            {
+                health -= 50;
+            }
+            else
+            if (((other.tag == "WaterProjectile") && (tag == "EnemyWater")) || ((other.tag == "FireProjectile") && (tag == "EnemyFire")) || ((other.tag == "WindProjectile") && (tag == "EnemyAir")) || ((other.tag == "EarthProjectile") && (tag == "EnemyEarth")))
+            {
+                health += 25;
+            }
+            else
+            {
+                health -= 25;
+            }
+            
+        }
+        if ((other.tag == "FireMud" && tag == "EnemyWater") || (other.tag == "FireMud" && tag == "EnemyAir"))
             health -= 50;
-        }
-        else
-        if (((other.tag == "WaterProjectile") && (tag == "EnemyWater")) || ((other.tag == "FireProjectile") && (tag == "EnemyFire")) || ((other.tag == "WindProjectile") && (tag == "EnemyAir")) || ((other.tag == "EarthProjectile") && (tag == "EnemyEarth")))
-        {
-            health += 25;
-        }
-        else
-        {
-            health -= 25;
-        }
-
     }
 }

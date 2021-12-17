@@ -29,6 +29,9 @@ TagManager:
   - DuckAmmo
   - EnemyEarth
   - GroundWater
+  - Undefined
+  - mud
+  - FireMud
   layers:
   - Default
   - TransparentFX
