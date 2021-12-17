@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class EnemyHealth : MonoBehaviour
 {
     public float health = 100;
     public float Score = 0;
     private string tag;
-    public Text scoreT;
+    //public GameObject THETEXT;
+    public TMP_Text scoreT;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,11 +22,11 @@ public class EnemyHealth : MonoBehaviour
     {
         if (health <= 0)
         {
-            
-            Score++;
+            GameObject.Find("Scoreing").GetComponent<Score>().AddScore();
+            //THETEXT.SendMessage("AddScore");
             Debug.Log(Score);
             Destroy(gameObject);
-            scoreT.text = Score.ToString();
+            
         }
     }
 
@@ -40,8 +42,9 @@ public class EnemyHealth : MonoBehaviour
             health += 25;
         }
         else
+        {
             health -= 25;
-
+        }
 
     }
 }
