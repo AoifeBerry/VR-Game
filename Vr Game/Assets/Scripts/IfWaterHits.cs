@@ -20,7 +20,7 @@ public class IfWaterHits : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "WaterProjectile")
+        if ((other.tag == "WaterProjectile") || (other.tag == "GroundWater"))
         {
 
             //Debug.Log("HittingWater");
@@ -28,7 +28,7 @@ public class IfWaterHits : MonoBehaviour
             StartCoroutine(WaterAwake());
 
         }
-        if (other.tag == "FireProjectile")
+        if ((other.tag == "FireProjectile") || (other.tag == "GroundFire"))
         {
 
            // Debug.Log("healing");

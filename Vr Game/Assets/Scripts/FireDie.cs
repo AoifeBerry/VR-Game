@@ -18,7 +18,7 @@ public class FireDie : MonoBehaviour
 
     IEnumerator FireAwake()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(6);
         Destroy(gameObject);
     }
 }

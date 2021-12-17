@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 1731231893792097299}
   - component: {fileID: 8140225928066528765}
   - component: {fileID: 8211068807181571537}
-  - component: {fileID: 6489438430869548643}
   - component: {fileID: 8170453255779564860}
   - component: {fileID: 5466679753109859583}
+  - component: {fileID: 2742481023779011142}
   m_Layer: 0
   m_Name: AirProjectile
-  m_TagString: FireProjectile
+  m_TagString: WindProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,22 +65,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.13, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6489438430869548643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1731231893792097296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a925eac64dc110a4eb091d868c9f12ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 1731231893792097299}
-  rb: {fileID: 8140225928066528765}
-  fire: {fileID: 2788263017742075380, guid: 4d98bcd7b79f2a347a9623fe3e896c41, type: 3}
-  steam: {fileID: 775295886459944480, guid: 63f97398f1a3af840b52272c1267905f, type: 3}
 --- !u!82 &8170453255779564860
 AudioSource:
   m_ObjectHideFlags: 0
@@ -189,12 +173,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 706bfbce87eb8e7409df7dc9615ab8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FireE: {fileID: 0}
-  WaterE: {fileID: 0}
-  EarthE: {fileID: 0}
-  AirE: {fileID: 0}
+  Scores: 0
+  ScoreText: {fileID: 0}
   scoreT: {fileID: 0}
-  Scoree: 0
+  otherScore: {fileID: 0}
+--- !u!114 &2742481023779011142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731231893792097296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8450e07ae62e5748af6abe5d20ad338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 1731231893792097299}
+  rb: {fileID: 8140225928066528765}
+  Steam: {fileID: 775295886459944480, guid: 63f97398f1a3af840b52272c1267905f, type: 3}
 --- !u!1 &1731231894315432423
 GameObject:
   m_ObjectHideFlags: 0

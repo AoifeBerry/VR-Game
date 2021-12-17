@@ -23,7 +23,7 @@ public class EarthHitting : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "FireProjectile")
+        if ((other.tag == "FireProjectile") || (other.tag == "GroundFire"))
         {
 
             Debug.Log("HittingFire");
@@ -31,7 +31,7 @@ public class EarthHitting : MonoBehaviour
             StartCoroutine(FireAwake());
 
         }
-        if (other.tag == "WaterProjectile")
+        if ((other.tag == "WaterProjectile") || (other.tag == "GroundWater"))
         {
 
             // Debug.Log("healing");
@@ -39,7 +39,7 @@ public class EarthHitting : MonoBehaviour
             StartCoroutine(WaterAwake());
 
         }
-        if (other.tag == "EarthProjectile")
+        if ((other.tag == "EarthProjectile") || (other.tag == "GroundMud"))
         {
 
             // Debug.Log("healing");
@@ -47,7 +47,7 @@ public class EarthHitting : MonoBehaviour
             StartCoroutine(HealingAwake());
 
         }
-        if (other.tag == "AirProjectile")
+        if (other.tag == "AirProjectile") 
         {
 
             // Debug.Log("healing");

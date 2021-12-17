@@ -28,6 +28,7 @@ TagManager:
   - GroundRock
   - DuckAmmo
   - EnemyEarth
+  - GroundWater
   layers:
   - Default
   - TransparentFX

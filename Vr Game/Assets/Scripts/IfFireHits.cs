@@ -22,7 +22,7 @@ public class IfFireHits : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "FireProjectile")
+        if ((other.tag == "FireProjectile") || (other.tag == "GroundFire"))
         {
         
         Debug.Log("HittingFire");
@@ -30,7 +30,7 @@ public class IfFireHits : MonoBehaviour
             StartCoroutine(AirAwake());
 
         }
-        if (other.tag == "WaterProjectile")
+        if ((other.tag == "WaterProjectile") || (other.tag == "GroundWater"))
         {
 
            // Debug.Log("healing");
@@ -38,7 +38,7 @@ public class IfFireHits : MonoBehaviour
             StartCoroutine(HealingAwake());
 
         }
-        if (other.tag == "EarthProjectile")
+        if ((other.tag == "EarthProjectile") || (other.tag == "GroundMud"))
         {
 
             // Debug.Log("healing");

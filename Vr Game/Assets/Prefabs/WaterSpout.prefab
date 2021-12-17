@@ -4825,9 +4825,10 @@ GameObject:
   - component: {fileID: 1181088895}
   - component: {fileID: 1181088893}
   - component: {fileID: 4206246399799514374}
+  - component: {fileID: 7721018284677100082}
   m_Layer: 0
   m_Name: WaterSpout
-  m_TagString: Untagged
+  m_TagString: GroundWater
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4861,7 +4862,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!65 &1181088893
 BoxCollider:
@@ -4892,3 +4893,15 @@ MonoBehaviour:
   steam: {fileID: 775295886459944480, guid: 63f97398f1a3af840b52272c1267905f, type: 3}
   rock: {fileID: 8558255262727128491, guid: ace93b31ae396554c9d048f041f52d43, type: 3}
   mud: {fileID: 8258153869766861812, guid: 3e502392047a2b84f87ef24ca2a4d494, type: 3}
+--- !u!114 &7721018284677100082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260623521644582939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd6a1575675d8e9428abcfcad6accfa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
