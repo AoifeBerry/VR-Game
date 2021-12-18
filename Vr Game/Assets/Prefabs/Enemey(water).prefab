@@ -120,7 +120,7 @@ MonoBehaviour:
   fireParticle: {fileID: 1339462060921054272}
   Healing: {fileID: 8913280608118647409}
   EarthParticle: {fileID: 0}
-  AirParticle: {fileID: 3070608868267319712}
+  AirParticle: {fileID: 1170584023889758879, guid: d72c8be32eb466a4497e49a49c6c2a35, type: 3}
 --- !u!1 &3078346684587618493
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,11 +594,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63f97398f1a3af840b52272c1267905f, type: 3}
---- !u!1 &3070608868267319712 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 775295886459944481, guid: 63f97398f1a3af840b52272c1267905f, type: 3}
-  m_PrefabInstance: {fileID: 2332470979423952769}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3070608868267319713 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 775295886459944480, guid: 63f97398f1a3af840b52272c1267905f, type: 3}

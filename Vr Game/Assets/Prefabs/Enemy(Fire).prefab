@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91695132136952143b42f00e5bd1e114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WaterParticle: {fileID: 1214756486015433226}
+  WaterParticle: {fileID: 1170584023889758879, guid: d72c8be32eb466a4497e49a49c6c2a35, type: 3}
   Healing: {fileID: 3312187553047571935}
 --- !u!1001 &1880755418981532715
 PrefabInstance:
@@ -275,11 +275,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63f97398f1a3af840b52272c1267905f, type: 3}
---- !u!1 &1214756486015433226 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 775295886459944481, guid: 63f97398f1a3af840b52272c1267905f, type: 3}
-  m_PrefabInstance: {fileID: 1880755418981532715}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1214756486015433227 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 775295886459944480, guid: 63f97398f1a3af840b52272c1267905f, type: 3}
