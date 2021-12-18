@@ -57,6 +57,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  Score: 0
+  scoreT: {fileID: 0}
 --- !u!195 &7092924602353554776
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -107,16 +109,28 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4103280886597072855, guid: bb829abeee583944d8e8a247de7fad56, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4462024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103280886597072855, guid: bb829abeee583944d8e8a247de7fad56, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4462024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103280886597072855, guid: bb829abeee583944d8e8a247de7fad56, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4462024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103280886597072855, guid: bb829abeee583944d8e8a247de7fad56, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.13642693
+      value: -0.161
       objectReference: {fileID: 0}
     - target: {fileID: 4103280886597072855, guid: bb829abeee583944d8e8a247de7fad56, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.9700003
+      value: 2.93
       objectReference: {fileID: 0}
     - target: {fileID: 4103280886597072855, guid: bb829abeee583944d8e8a247de7fad56, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.06835556
+      value: -0.045909
       objectReference: {fileID: 0}
     - target: {fileID: 4103280886597072855, guid: bb829abeee583944d8e8a247de7fad56, type: 3}
       propertyPath: m_LocalRotation.w

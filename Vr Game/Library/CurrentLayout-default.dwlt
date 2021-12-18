@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 18
+  controlID: 171
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 27
+  controlID: 98
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 28
+  controlID: 99
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -192,8 +192,8 @@ MonoBehaviour:
     y: 0
     width: 482
     height: 671
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -399,20 +399,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f8690000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b085feff5275ffff5a75ffff5c75ffff4ab5ffff22c5ffffdcc5ffff26c9ffff40fbffff48fbffff4afbffff305900003a5900004859000082590000ba5900007e8d0000968d0000d08d0000088e0000
+      m_ExpandedIDs: 1429feffc67afeffdc86feff12aafeff16aafeff1caafeff34aafeff3cb9feff84c6feff8cc6feff8ec6feff90c6feff04c9feffa2d5feff5c1bffffb460ffffc460ffff3493ffffa29cffff7cddffffb69f00009a5a0100ee5a01002e5b0100ce5f0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Canvas
-        m_OriginalName: Canvas
+        m_Name: EventSystem
+        m_OriginalName: EventSystem
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 36360
+        m_UserData: 89396
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -461,9 +461,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.3003826, y: 1.7893091, z: 1.6516613}
+    m_Target: {x: 4.8479023, y: 9.273449, z: 2.2580376}
     speed: 2
-    m_Value: {x: -4.3003826, y: 1.7893091, z: 1.6516613}
+    m_Value: {x: 4.8479023, y: 9.273449, z: 2.2580376}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -497,7 +497,7 @@ MonoBehaviour:
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
+      m_Size: {x: 0.0001, y: 0.0001}
     zGrid:
       m_Fade:
         m_Target: 0
@@ -505,22 +505,22 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
+      m_Size: {x: 0.0001, y: 0.0001}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.056331925, y: 0.31496316, z: -0.018729951, w: 0.9472597}
+    m_Target: {x: 0.38981146, y: 0.017953632, z: -0.0076101515, w: 0.920706}
     speed: 2
-    m_Value: {x: 0.056359198, y: 0.3135377, z: -0.01864518, w: 0.9477184}
+    m_Value: {x: 0.38980508, y: 0.01795334, z: -0.007610027, w: 0.92069095}
   m_Size:
-    m_Target: 6.4739513
+    m_Target: 9.2392025
     speed: 2
-    m_Value: 6.4739513
+    m_Value: 9.2392025
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1.9200393
     m_SpeedNormalized: 0.9599996
@@ -640,22 +640,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\GitHub\vision-c20387516\VR-Game\Vr Game
+  m_LastProjectPath: C:\Users\berry\OneDrive\Documents\GitHub\VR Game\VR-Game\Vr
+    Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 21}
-    m_SelectedIDs: 78690000
-    m_LastClickedID: 27000
-    m_ExpandedIDs: 00000000586900005a6900005c6900005e69000060690000626900006469000066690000686900006a6900006c6900006e6900007069000072690000746900007669000078690000ca69000000ca9a3b
+    scrollPos: {x: 0, y: 109}
+    m_SelectedIDs: 849c0000
+    m_LastClickedID: 40068
+    m_ExpandedIDs: 00000000049c0000069c0000089c00000a9c00000c9c00000e9c0000109c0000129c0000149c0000169c0000189c00001a9c00001c9c00001e9c0000209c0000229c0000249c00007a9c0000849c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -683,7 +684,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000586900005a6900005c6900005e69000060690000626900006469000066690000686900006a6900006c6900006e6900007069000072690000746900007669000078690000
+    m_ExpandedIDs: 00000000049c0000069c0000089c00000a9c00000c9c00000e9c0000109c0000129c0000149c0000169c0000189c00001a9c00001c9c00001e9c0000209c0000229c0000249c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -710,7 +711,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -735,7 +736,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 92}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -776,7 +777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c262c1329a02fa49b5cb4c297106f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 133, y: 30}
+  m_MinSize: {x: 136, y: 30}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: ProBuilder

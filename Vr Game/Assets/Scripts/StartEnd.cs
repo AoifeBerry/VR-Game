@@ -12,7 +12,7 @@ public class StartEnd : MonoBehaviour
     void Start()
     {
         transition.SetTrigger("Start");
-        Time.timeScale = 0;
+       // Time.timeScale = 0;
     }
 
     // Update is called once per frame
@@ -27,20 +27,20 @@ public class StartEnd : MonoBehaviour
     public void StartButton()
     {
         StartCanvas.SetActive(false);
-        Time.timeScale = 1;
+      //  Time.timeScale = 1;
 
     }
     public void PauseGame()
     {
         PauseCanvas.SetActive(true);
         Debug.Log("TimeSlowed");
-        Time.timeScale = 0;
+      //  Time.timeScale = 0;
 
     }
     public void ContinueGame()
     {
         PauseCanvas.SetActive(false);
-        Time.timeScale = 1;
+       // Time.timeScale = 1;
         Debug.Log("TimeBack");
 
     }

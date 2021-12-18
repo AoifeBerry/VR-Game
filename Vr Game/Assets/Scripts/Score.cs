@@ -9,6 +9,7 @@ public class Score : MonoBehaviour
 
     public float Scores;
     public TMP_Text ScoreText;
+    public TMP_Text ScoreText2;
     public TextMeshProUGUI scoreT;
     public Text otherScore;
    
@@ -32,6 +33,7 @@ public class Score : MonoBehaviour
     {
         Scores++;
         ScoreText.text = "Score = " + Scores.ToString();
+        ScoreText2.text = Scores.ToString();
     }
 
   

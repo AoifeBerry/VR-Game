@@ -11,6 +11,7 @@ public class EnemyHealth : MonoBehaviour
     private string tag;
     //public GameObject THETEXT;
     public TMP_Text scoreT;
+   // public TMP_Text scoreT2;
     // Start is called before the first frame update
     void Start()
     {

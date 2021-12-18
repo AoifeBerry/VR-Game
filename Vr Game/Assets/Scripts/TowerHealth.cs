@@ -2,11 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TowerHealth : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
+    public GameObject textbox1;
+    public GameObject textbox2;
+    public GameObject textbox3;
 
     public HealthBar healthbar;
 
@@ -44,5 +48,20 @@ public class TowerHealth : MonoBehaviour
         currentHealth -= damage;
 
         healthbar.SetHealth(currentHealth);
+    }
+
+    void Update()
+    {
+        if(currentHealth <= 0)
+        {
+            textbox1.SetActive(true);
+            StartCoroutine(EndScene());
+
+        }
+    }
+    IEnumerator EndScene()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene("EndScene");
     }
 }
