@@ -185,6 +185,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  Score: 0
+  scoreT: {fileID: 0}
 --- !u!135 &3442210615188925244
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -601,16 +603,28 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3514404547930454622, guid: 044e4f4d78c455747aa2babffaff7d14, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.54757
+      objectReference: {fileID: 0}
+    - target: {fileID: 3514404547930454622, guid: 044e4f4d78c455747aa2babffaff7d14, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.54757
+      objectReference: {fileID: 0}
+    - target: {fileID: 3514404547930454622, guid: 044e4f4d78c455747aa2babffaff7d14, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.54757
+      objectReference: {fileID: 0}
+    - target: {fileID: 3514404547930454622, guid: 044e4f4d78c455747aa2babffaff7d14, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.08
+      value: 0.23884
       objectReference: {fileID: 0}
     - target: {fileID: 3514404547930454622, guid: 044e4f4d78c455747aa2babffaff7d14, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.96
+      value: 3.36
       objectReference: {fileID: 0}
     - target: {fileID: 3514404547930454622, guid: 044e4f4d78c455747aa2babffaff7d14, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.54
+      value: -0.53151
       objectReference: {fileID: 0}
     - target: {fileID: 3514404547930454622, guid: 044e4f4d78c455747aa2babffaff7d14, type: 3}
       propertyPath: m_LocalRotation.w
