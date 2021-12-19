@@ -13,6 +13,10 @@ public class RandomlySpawn : MonoBehaviour
     public GameObject Enemy2;
     public GameObject Enemy3;
     public GameObject Enemy4;
+    private GameObject bob;
+    private GameObject bob2;
+    private GameObject bob3;
+    private GameObject bob4;
     public float Rand = 0;
     public float whichEnemy = 0;
     public float Rand1 = 0;
@@ -81,28 +85,28 @@ public class RandomlySpawn : MonoBehaviour
             {
 
                // Debug.Log("Which enemy" + whichEnemy);
-                Enemy1 = Instantiate(Enemy1, spawn1.transform.position, spawn1.transform.rotation);
+                bob = Instantiate(Enemy1, spawn1.transform.position, spawn1.transform.rotation);
                 Rand = 0;
                 whichEnemy = 0;
             }
             if (whichEnemy <= 75 && whichEnemy >= 51)
             {
                // Debug.Log("Which enemy" + whichEnemy);
-                Enemy2 = Instantiate(Enemy2, spawn1.transform.position, spawn1.transform.rotation);
+                bob2 = Instantiate(Enemy2, spawn1.transform.position, spawn1.transform.rotation);
                 Rand = 0;
                 whichEnemy = 0;
             }
             if (whichEnemy <= 50 && whichEnemy >= 26)
             {
                 // Debug.Log("Which enemy" + whichEnemy);
-                Enemy3 = Instantiate(Enemy3, spawn1.transform.position, spawn1.transform.rotation);
+                bob3 = Instantiate(Enemy3, spawn1.transform.position, spawn1.transform.rotation);
                 Rand = 0;
                 whichEnemy = 0;
             }
             if (whichEnemy <= 25 && whichEnemy >= 1)
             {
                 // Debug.Log("Which enemy" + whichEnemy);
-                Enemy4 = Instantiate(Enemy4, spawn1.transform.position, spawn1.transform.rotation);
+                bob4 = Instantiate(Enemy4, spawn1.transform.position, spawn1.transform.rotation);
                 Rand = 0;
                 whichEnemy = 0;
             }
@@ -126,7 +130,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy1 <= 100 && whichEnemy1 >= 76)
             {
               //  Debug.Log("Which enemy 1" + whichEnemy1);
-                Enemy1 = Instantiate(Enemy1, spawn2.transform.position, spawn2.transform.rotation);
+                bob = Instantiate(Enemy1, spawn2.transform.position, spawn2.transform.rotation);
                 Rand1 = 0;
                 whichEnemy1 = 0;
             }
@@ -134,7 +138,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy1 <= 75 && whichEnemy1 >= 51)
             {
                // Debug.Log("Which enemy 1 " + whichEnemy);
-                Enemy2 = Instantiate(Enemy2, spawn2.transform.position, spawn2.transform.rotation);
+                bob2 = Instantiate(Enemy2, spawn2.transform.position, spawn2.transform.rotation);
                 Rand1 = 0;
                 whichEnemy1 = 0;
             }
@@ -142,7 +146,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy1 <= 50 && whichEnemy1 >= 26)
             {
                 // Debug.Log("Which enemy 1 " + whichEnemy);
-                Enemy3 = Instantiate(Enemy3, spawn2.transform.position, spawn2.transform.rotation);
+                bob3 = Instantiate(Enemy3, spawn2.transform.position, spawn2.transform.rotation);
                 Rand1 = 0;
                 whichEnemy1 = 0;
             }
@@ -150,7 +154,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy1 <= 25 && whichEnemy1 >= 1)
             {
                 // Debug.Log("Which enemy 1 " + whichEnemy);
-                Enemy4 = Instantiate(Enemy4, spawn2.transform.position, spawn2.transform.rotation);
+                bob4 = Instantiate(Enemy4, spawn2.transform.position, spawn2.transform.rotation);
                 Rand1 = 0;
                 whichEnemy1 = 0;
             }
@@ -175,7 +179,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy2 <= 100 && whichEnemy2 >= 76)
             {
                // Debug.Log("Which enemy 1" + whichEnemy2);
-                Enemy1 = Instantiate(Enemy1, spawn3.transform.position, spawn3.transform.rotation);
+                bob = Instantiate(Enemy1, spawn3.transform.position, spawn3.transform.rotation);
                 Rand2 = 0;
                 whichEnemy2 = 0;
             }
@@ -183,7 +187,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy2 <= 75 && whichEnemy2 >= 51)
             {
                 //Debug.Log("Which enemy 1 " + whichEnemy);
-                Enemy2 = Instantiate(Enemy2, spawn3.transform.position, spawn3.transform.rotation);
+                bob2 = Instantiate(Enemy2, spawn3.transform.position, spawn3.transform.rotation);
                 Rand2 = 0;
                 whichEnemy2 = 0;
             }
@@ -191,7 +195,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy2 <= 50 && whichEnemy2 >= 26)
             {
                 //Debug.Log("Which enemy 1 " + whichEnemy);
-                Enemy3 = Instantiate(Enemy3, spawn3.transform.position, spawn3.transform.rotation);
+                bob3 = Instantiate(Enemy3, spawn3.transform.position, spawn3.transform.rotation);
                 Rand2 = 0;
                 whichEnemy2 = 0;
             }
@@ -199,7 +203,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy2 <= 25 && whichEnemy2 >= 1)
             {
                 //Debug.Log("Which enemy 1 " + whichEnemy);
-                Enemy4 = Instantiate(Enemy4, spawn3.transform.position, spawn3.transform.rotation);
+                bob4 = Instantiate(Enemy4, spawn3.transform.position, spawn3.transform.rotation);
                 Rand2 = 0;
                 whichEnemy2 = 0;
             }
@@ -223,7 +227,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy3 <= 100 && whichEnemy3 >= 76)
             {
                 // Debug.Log("Which enemy 1" + whichEnemy2);
-                Enemy1 = Instantiate(Enemy1, spawn4.transform.position, spawn4.transform.rotation);
+                bob = Instantiate(Enemy1, spawn4.transform.position, spawn4.transform.rotation);
                 Rand3 = 0;
                 whichEnemy3 = 0;
             }
@@ -231,7 +235,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy3 <= 75 && whichEnemy3 >= 51)
             {
                 //Debug.Log("Which enemy 1 " + whichEnemy);
-                Enemy2 = Instantiate(Enemy2, spawn4.transform.position, spawn4.transform.rotation);
+                bob2 = Instantiate(Enemy2, spawn4.transform.position, spawn4.transform.rotation);
                 Rand3 = 0;
                 whichEnemy3 = 0;
             }
@@ -239,7 +243,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy3 <= 50 && whichEnemy3 >= 26)
             {
                 //Debug.Log("Which enemy 1 " + whichEnemy);
-                Enemy3 = Instantiate(Enemy3, spawn4.transform.position, spawn4.transform.rotation);
+                bob3 = Instantiate(Enemy3, spawn4.transform.position, spawn4.transform.rotation);
                 Rand3 = 0;
                 whichEnemy3 = 0;
             }
@@ -247,7 +251,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy3 <= 25 && whichEnemy3 >= 1)
             {
                 //Debug.Log("Which enemy 1 " + whichEnemy);
-                Enemy4 = Instantiate(Enemy4, spawn4.transform.position, spawn4.transform.rotation);
+                bob4 = Instantiate(Enemy4, spawn4.transform.position, spawn4.transform.rotation);
                 Rand3 = 0;
                 whichEnemy3 = 0;
             }
@@ -271,7 +275,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy4 <= 100 && whichEnemy4 >= 76)
             {
                 // Debug.Log("Which enemy 1" + whichEnemy2);
-                Enemy1 = Instantiate(Enemy1, spawn5.transform.position, spawn5.transform.rotation);
+                bob = Instantiate(Enemy1, spawn5.transform.position, spawn5.transform.rotation);
                 Rand4 = 0;
                 whichEnemy4 = 0;
             }
@@ -279,7 +283,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy4 <= 75 && whichEnemy4 >= 51)
             {
                 //Debug.Log("Which enemy 1 " + whichEnemy);
-                Enemy2 = Instantiate(Enemy2, spawn5.transform.position, spawn4.transform.rotation);
+                bob2 = Instantiate(Enemy2, spawn5.transform.position, spawn4.transform.rotation);
                 Rand4 = 0;
                 whichEnemy4 = 0;
             }
@@ -287,7 +291,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy4 <= 50 && whichEnemy4 >= 26)
             {
                 //Debug.Log("Which enemy 1 " + whichEnemy);
-                Enemy3 = Instantiate(Enemy3, spawn5.transform.position, spawn5.transform.rotation);
+                bob3 = Instantiate(Enemy3, spawn5.transform.position, spawn5.transform.rotation);
                 Rand4 = 0;
                 whichEnemy4 = 0;
             }
@@ -295,7 +299,7 @@ public class RandomlySpawn : MonoBehaviour
             if (whichEnemy4 <= 25 && whichEnemy4 >= 1)
             {
                 //Debug.Log("Which enemy 1 " + whichEnemy);
-                Enemy4 = Instantiate(Enemy4, spawn5.transform.position, spawn5.transform.rotation);
+                bob4 = Instantiate(Enemy4, spawn5.transform.position, spawn5.transform.rotation);
                 Rand4 = 0;
                 whichEnemy4 = 0;
             }
