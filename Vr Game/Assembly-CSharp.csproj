@@ -66,7 +66,7 @@
     <Compile Include="Assets\Scripts\BurnPlant.cs" />
     <Compile Include="Assets\SlowDown.cs" />
     <Compile Include="Assets\Scripts\IfWaterSpoutHits.cs" />
-    <Compile Include="Assets\startgame.cs" />
+    <Compile Include="Assets\Scripts\startgame.cs" />
     <Compile Include="Assets\Scripts\TowerHealth.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />

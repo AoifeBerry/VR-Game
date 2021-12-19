@@ -37,7 +37,7 @@ public class IfWaterSpoutHits : MonoBehaviour
 
             Destroy(gameObject);
             Destroy(collision.gameObject);
-            Instantiate(mud, water.transform.position, water.transform.rotation);
+            Instantiate(mud, water.transform.position, Quaternion.identity);
 
 
         }

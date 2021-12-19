@@ -24,7 +24,7 @@ public class IfRockHits : MonoBehaviour
 
             Destroy(gameObject);
             Destroy(collision.gameObject);
-            Instantiate(LavaRock, rock.transform.position, rock.transform.rotation);
+            Instantiate(LavaRock, rock.transform.position, Quaternion.identity);
 
 
         }
